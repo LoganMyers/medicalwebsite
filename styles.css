@@ -5,7 +5,7 @@ html body   {
 body    {
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-color: white;
 }
 header  {
     display: flex;
@@ -13,7 +13,7 @@ header  {
     justify-content: space-between;
     margin: 0;
     background-color: white;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(192, 192, 192);
     filter: drop-shadow(0px 10px 4px rgb(135, 206, 235));
 }
 header img  {
@@ -38,7 +38,7 @@ header li   {
 section {
     margin: 0;
     background-color: white;
-    border-bottom: 2px solid grey;
+    position: relative;
 }
 section h1  {
     color: rgb(135, 206, 235);
@@ -51,5 +51,15 @@ section p   {
     color: black;
     margin: 0 auto;
     max-width: 50%;
-    padding: 50px;
+    padding: 10px 0 30px 0;
+    position: relative;
+}
+p::before   {
+    content: "";
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    height: 2px;
+    width: 50%;
+    background-color: rgb(211, 211, 211);
 }
