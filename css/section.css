@@ -10,13 +10,19 @@ section {
                     /* Sections that contain large text */
 
 .text h1  {
-    color: rgb(135, 206, 235);
+    font-size: 1.2em;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    color: rgb(24, 158, 180);
     text-align: center;
     margin: 0;
 }
 .text p   {
+    font-size: .8em;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
     text-align: center;
-    color: black;
+    color: rgb(237, 28, 36);
     margin: 0 auto;
     max-width: 50%;
     padding: 10px 0 10px 0;
@@ -41,4 +47,28 @@ section {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+}
+
+                    /* Banner Sections */
+
+section.banner  {
+    padding-top: 10px;
+}
+.banner div {
+    height: 50px;
+    background-color: rgb(24, 158, 180);
+    display: flex;
+    justify-content: space-around;
+}
+.banner button  {
+    height: 25px;
+    width: 20%;
+    margin: auto;
+    padding: 0;
+    font-size: .7em;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    background-color: white;
+    color: rgb(237, 28, 36);
+    border: 2px solid rgb(24, 158, 180);
 }

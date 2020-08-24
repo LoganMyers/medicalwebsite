@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/section.css">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 <script src="jquery-3.5.1.js"></script>
 <script src="scripts.js"></script>
 </head>
@@ -20,23 +21,35 @@
     </header>
 
     <section class="text">
-        <h1>Hello</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit.</p>
-    </section>
-
-    <section class="text">
-        <h1>Hello</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit.</p>
+        <h1>Your best choice provider</h1>
+        <p>Lorem ipsum has been a leading insurance provider
+            since 1936 and continues to provide excellent 
+            service!
+        </p>
     </section>
 
     <section class="image">
-        <img src="images/pharmacist.jpg">
+        <img id="firstImage" src="images/group-of-doctors.jpg" alt="Illustrated image of a doctor and a few bottles of medicine">
     </section>
 
     <section class="banner">
-        <button></button>
+        <div>
+            <button onclick="switchImage1()">Coverage</button>
+            <button onclick="switchImage2()">Base Plan</button>
+            <button onclick="switchImage3()">Silver Plan</button>
+            <button onclick="switchImage4()">Gold Plan</button>
+        </div>
+    </section>
+
+    <section class="text">
+        <h1>Giving back to you</h1>
+        <p>Here at Lorem ipsum we are dedicated to 
+            our local communities and partners.
+        </p>
+    </section>
+
+    <section class="image">
+        <img id="firstImage" src="images/maps-location.png" alt="Illustrated image of a doctor and a few bottles of medicine">
     </section>
 
     
